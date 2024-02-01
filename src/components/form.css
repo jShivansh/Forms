@@ -42,15 +42,19 @@ form {
  
   
   button {
-    background-color: #4caf50;
+    background-color: #6518d7;
     color: #fff;
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
   }
+
+  .buttonForm button {
+    margin-left: 12em;
+  }
   
   button:hover {
-    background-color: #45a049;
+    background-color: #6f50d5;
   }
   

@@ -1,7 +1,12 @@
 .app-container {
-  max-width: 800px;
+  max-width: 80%;
   margin: 0 auto;
   padding: 20px;
+}
+
+h1, h2{
+  text-align: center;
+  color:  #6518d7;
 }
 
 table {

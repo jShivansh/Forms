@@ -120,7 +120,7 @@ const EditModal = ({ isOpen, onRequestClose, handleEditSubmit, initialData }) =>
           required
         />
 
-        <button type="submit">Save</button>
+        <div className='buttonForm'><button type="submit">Save</button></div>
       </form>
     </Modal>
   );

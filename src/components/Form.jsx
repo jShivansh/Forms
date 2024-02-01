@@ -119,7 +119,7 @@ const Form = ({ handleFormSubmit }) => {
         <input type="date" name="dob" value={formData.dob} onChange={handleInputChange} required />
       </label>
 
-      <button type="submit">Submit</button>
+      <div className='buttonForm'><button type="submit">Submit</button></div>
     </form>
   );
 };
